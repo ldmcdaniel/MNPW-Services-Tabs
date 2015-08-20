@@ -43,7 +43,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: 'templates/Search/search.html',
-        // controller: 'SearchCtrl'
+        controller: 'SearchCtrl'
       }
     }
   })
@@ -53,7 +53,7 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: 'templates/Pickup/pickup.html',
-        // controller: 'PickupCtrl'
+        controller: 'PickupCtrl'
       }
     }
   })
@@ -63,10 +63,10 @@ angular.module('starter', [
     views: {
       'menuContent': {
         templateUrl: 'templates/Settings/settings.html',
-        // controller: 'SettingsCtrl'
+        controller: 'SettingsCtrl'
       }
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/templates/search');
+  $urlRouterProvider.otherwise('/templates/Search/search');
 });

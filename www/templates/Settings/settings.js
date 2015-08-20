@@ -1,5 +1,5 @@
 angular.module('MNPW.settings', [])
 
-  .controller('SearchCtrl', function ($scope, $http) {
+  .controller('SettingsCtrl', function ($scope, $http) {
 
   })

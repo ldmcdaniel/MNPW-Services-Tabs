@@ -1,5 +1,5 @@
 angular.module('MNPW.menu', [])
 
-  .controller('SearchCtrl', function ($scope, $http) {
+  .controller('MenuCtrl', function ($scope, $http) {
 
   })

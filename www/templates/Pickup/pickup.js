@@ -1,5 +1,5 @@
 angular.module('MNPW.pickup', [])
 
-  .controller('SearchCtrl', function ($scope, $http) {
+  .controller('PickupCtrl', function ($scope, $http) {
 
   })
