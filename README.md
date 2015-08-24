@@ -7,12 +7,12 @@ To check this project out it:
 
 In your **terminal** in your code directory, type the following:
 
-git clone *https://github.com/ldmcdaniel/MNPW-Services*
+  git clone *https://github.com/ldmcdaniel/MNPW-Services*
 
-cd MNPW-Services
+  cd MNPW-Services
 
-bower install
+  bower install
 
-ionic serve
+  ionic serve
 
 Open with your favorite text editor and you should be ready to start coding.
