@@ -2,11 +2,11 @@
 
 ## What is the project about?
 
-This is a project to create an ionic app to send push notification to a user based on their Nashville address of the next trash, recycling, and brush collection times.  It is a set-it-and-forget-it app.  Set the address and the app will remind the user the day before a trash or recycling pickup and up to one week prior to a brush collection pickup.
+This is a project to create an ionic app to send push notification to a user based on their Nashville address of the next trash, recycling, and brush collection times for **Code for Nashville**.  It is a set-it-and-forget-it app.  Set the address and the app will remind the user the day before a trash or recycling pickup and up to one week prior to a brush collection pickup.
 
 ## What technologies does the project use?
 
-NPM, Ionic, HTML5, CSS3, AngularJS
+NPM, Ionic, HTML5, CSS3, and AngularJS.
 
 ## Download and install:
 
