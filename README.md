@@ -26,11 +26,11 @@ If you *do not have Ionic installed*, check out [this link] (http://ionicframewo
 
 Once you have Ionic installed, from Terminal:
 
-'''sh
+```sh
 cd MNPW-Services
 npm install
 bower install
 ionic serve
-'''
+```
 
 Open with your favorite text editor and you should be ready to start coding.
