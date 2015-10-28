@@ -1,16 +1,69 @@
 <ion-view view-title="Settings">
   <ion-content>
     <label class="item item-input item-stacked-label">
-      <span class="input-label">Street Address:</span>
-      <input type="text" placeholder="123 Jones St.">
+      <span class="input-label">Name of your street:</span>
+      <input type="text" placeholder="Jones St">
     </label>
     <label class="item item-input item-stacked-label">
-      <span class="input-label">Zip Code</span>
-      <input type="text" placeholder="37212">
+      <span class="input-label">Number on above street</span>
+      <input type="text" placeholder="123">
     </label>
+    <div class="list">
+
+      <label class="item item-input item-select">
+        <span class="input-label">Notify me the day before at:</span>
+        <div class="input-label">
+          Hour
+        </div>
+        <select>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option selected>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Minute
+        </div>
+        <select>
+          <option selected>00</option>
+          <option>05</option>
+          <option>10</option>
+          <option>15</option>
+          <option>20</option>
+          <option>25</option>
+          <option selected>30</option>
+          <option>35</option>
+          <option>40</option>
+          <option>45</option>
+          <option>50</option>
+          <option>55</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          AM/PM
+        </div>
+        <select>
+          <option>AM</option>
+          <option selected>PM</option>
+        </select>
+      </label>
+
+    </div>
     <button class="button button-block button-positive">
       Set Home Address
     </button>
+
   </ion-content>
 </ion-view>
 
